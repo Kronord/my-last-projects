@@ -1,0 +1,306 @@
+.wrapper {
+    width: 1600px;
+    margin: auto;
+}
+.header {
+    padding: 35px 245px 0;
+    margin-bottom: 21px;
+}
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -4px;
+    width: 190px;
+    height: 42px;
+}
+.logo-link {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 32px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #555252;
+}
+.logo-link::first-letter {
+    font-weight: 900;
+    color: #1abc9c;
+}
+.menu {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 190px);
+    height: 23px;
+    text-align: right;
+}
+.menu-link {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 11px;
+    text-transform: uppercase;
+    color: #0f0101;
+}
+.menu-link:nth-child(1) {
+    margin-left: 0;
+}
+.menu-link:hover {
+    color: #1abc9c;
+}
+.slidebar {
+    position: relative;
+    margin-bottom: 100px;
+}
+.slidebar-info {
+    width: 780px;
+    position: absolute;
+    left: 430px;
+    top: 200px;
+    z-index: 10px;
+}
+.slidebar-title {
+    font-size: 60px;
+    line-height: 82px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.slidebar-text {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    line-height: 54px;
+    text-transform: uppercase;
+    color:  #ffffff;
+}
+.slick-arrow {
+    border: 0;
+    width: 104px;
+    height: 104px;
+    font-size: 0;
+    z-index: 10;
+    border-radius: 5px;
+    background-color: #1abc9c
+}
+.slick-arrow:hover {
+    background-color: #54a18fB3;
+}
+.slick-prev {
+    position: absolute;
+    top: 225px;
+    left: 245px;
+    background-image: url(../img/left-arrow.png);
+    background-size: 37px 37px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.slick-next {
+    position: absolute;
+    top: 225px;
+    right: 245px;
+    background-image: url(../img/right-arrow.png);
+    background-size: 42px 42px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.collection {
+    width: 100%;
+    height: 83px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 32px;
+    color: #515151;
+    text-transform: uppercase;
+    text-align: center;
+}
+.collection::after {
+    content: '';
+    display: inline-block;
+    width: 168px;
+    border-bottom: solid 6px #36c3a9;
+}
+.gallery {
+    height: auto;
+    overflow: hidden;
+    padding: 73px 245px 100px;
+}
+.clearfix::after {
+    content: "";
+    clear: both; 
+    display: block; 
+}
+.gallery-item {
+    float: left;
+    width: 255px;
+    height: 322px;
+    position: relative;
+    margin-right: 30px;
+}
+.gallery-item:last-child {
+    margin: 0;
+}
+.gallery-image {
+    width: 100%;
+}
+.price {
+    width: 54px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #8c8c8c;
+}
+.price p::before {
+    content: '\0024';
+    color: #ffffff;
+}
+.name-whear {
+    width: 201px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #323232;
+}
+/* Hovers */
+.gallery-item:hover>.name-whear {
+    background-color: #1abc9c;
+}
+.gallery-item:hover>.price {
+    background-color: #7fd9c7;
+}
+.icon:hover {
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+.big-board:hover {
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+.gallery-item:hover .card-icons {
+    display: block;
+}
+.modal-background {
+    width: 235px;
+    height: 260px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    text-align: center;
+}
+.gallery-item:hover > .modal-background {
+    background-color: #32323299;
+}
+.gallery-item:hover > .icon {
+    display: inline-block;
+}
+.card-icons {
+    display: none;
+    position: absolute;
+    width: 170px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: solid 2px #ffffff;
+}
+.icon:nth-child(3n) {
+    margin: 0;
+}
+.big-board {
+    display: inline-block;
+    position: relative;
+    margin-top: 5px; 
+    width: 165px;
+    height: 50px;
+    border: solid 2px #ffffff;
+    background-color: #323232;
+}
+.text-board {
+    display: inline-block;
+    position: absolute;
+    width: 60%;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.big-icon {
+    display: inline-block;
+    width: 30%;
+    height: 30px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    bottom: 10px;
+    background-image: url(../img/icon-cart.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+/* Иконки */
+.one {
+    background-image: url(../img/like.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.two {
+    background-image: url(../img/arrow-icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.three {
+    background-image: url(../img/clock-icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer {
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 90px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: capitalize;
+    background-color: #323232;
+}
+.word {
+    color: #46bfa9;
+}
+.letter {
+    text-transform: uppercase;
+}

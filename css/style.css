@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* All main content style */
+.main-content {
+    width: 1200px;
+    height: 1319px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 40px;
+}
+/* All sidebar style */
+.sidebar {
+    width: 370px;
+    background-color: #1E2939;
+    padding-top: 40px;
+}
+/* Section blocks style */
+.contacts-section,
+.tech-section,
+.soft-skills-section {
+    margin: 50px 0 0 40px;
+}
+/* Style contacts section */
+.contacts-section {
+    width: 183px;
+    height: 83px;   
+}
+.sidebar-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #fff
+}
+.contacts-section-type {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 8px;
+}
+.contacts-section-link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #575F6B;
+}
+/* Tech section style */
+.tech-section {
+    width: 121px;
+}
+.tech-section-list {
+    margin-left: 15px;
+}
+.tech-section-item {
+    color: #FB6D3A;
+}
+.tech-section-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+/* Soft skills section style */
+.soft-skills-section {
+    width: 113px;
+}
+.soft-skills-list {
+    margin-left: 15px;
+}
+.soft-skills-item {
+    color: #FB6D3A;
+}
+.soft-skills-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+.portfolio {
+    margin: 100px 0 100px 90px;
+}
+.line {
+    margin-bottom: 40px;
+}
+/* About me section style */
+.about-me-section {
+    width: 400px;
+    height: 230px;
+}
+.about-me-section-position {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.about-me-section-name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.about-me-section-discribe {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-bottom: 20px;
+}
+.portfolio-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+/* My Projecct section */
+
+.my-project-section-list {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.my-project-section-item {
+    font-weight: bold;
+    color: black;
+}
+.my-project-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.my-project-section-link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.my-project-brackets {
+    font-weight: bold;
+}
+
+/* Work experience section */
+
+.work-experience-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px; 
+    color: #000000;
+    margin-bottom: 10px;
+}
+.word-color {
+    color: #FB6D3A;
+}
+.work-experience-date {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;
+}
+.work-experience-list {
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.work-experience-item {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.work-company {
+    width: 525px;
+    margin-bottom: 20px;
+}
+.work-company-third {
+    width: 525px;
+    margin-bottom: 40px;
+}
+
+/* My education */
+
+.my-education-university {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin-bottom: 12px;
+}
+.my-education-faculty {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 12px;
+}
